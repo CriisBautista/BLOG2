@@ -33,6 +33,16 @@ body {
 	line-height: 1;
 }
 
+#menu ul a.opener, #menu ul span.opener {
+	-moz-transition: color 0.2s ease-in-out;
+	-webkit-transition: color 0.2s ease-in-out;
+	-ms-transition: color 0.2s ease-in-out;
+	transition: color 0.2s ease-in-out;
+	text-decoration: none;
+	-webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+	position: relative; }
+
+	
 ol, ul {
 	list-style: none;
 }
@@ -139,6 +149,7 @@ input, select, textarea {
 		color: #666;
 		text-decoration: none;
 		border-bottom: solid 1px #ddd;
+		overflow: hidden;
 	}
 
 		a strong {
@@ -2472,11 +2483,11 @@ input, select, textarea {
 				z-index: 10002;
 				background: #444;
 				border-right: solid 2px #3c3c3c;
-				font-weight: 400;
+				font-weight: 100;
 				text-transform: uppercase;
 				color: #888;
-				letter-spacing: 2px;
-				font-size: 0.85em;
+				letter-spacing: 0;
+				font-size: 0.55em;
 			}
 
 				#navPanel .link {
@@ -2502,11 +2513,15 @@ input, select, textarea {
 				#navPanel .indent-1 {
 					display: inline-block;
 					width: 1em;
+					font-weight: 600;
+					color: rgb(245, 0, 0);
 				}
+
 
 				#navPanel .indent-2 {
 					display: inline-block;
 					width: 2em;
+					overflow: hidden;
 				}
 
 				#navPanel .indent-3 {
@@ -2577,6 +2592,39 @@ input, select, textarea {
 				h2 br, h3 br, h4 br, h5 br, h6 br {
 					display: none;
 				}
+
+		/*Nav*/
+
+		#navPanel {
+			-moz-backface-visibility: hidden;
+			-webkit-backface-visibility: hidden;
+			-ms-backface-visibility: hidden;
+			backface-visibility: hidden;
+			-moz-transform: translateX(-275px);
+			-webkit-transform: translateX(-275px);
+			-ms-transform: translateX(-275px);
+			transform: translateX(-275px);
+			-moz-transition: -moz-transform 0.5s ease;
+			-webkit-transition: -webkit-transform 0.5s ease;
+			-ms-transition: -ms-transform 0.5s ease;
+			transition: transform 0.5s ease;
+			display: block;
+			height: 100%;
+			left: 0;
+			overflow-y: auto;
+			position: fixed;
+			top: 0;
+			width: 275px;
+			z-index: 10002;
+			background: #444;
+			border-right: solid 2px #3c3c3c;
+			font-weight: 100;
+			text-transform: uppercase;
+			color: #888;
+			letter-spacing: 0;
+			font-size: 0.45em;
+			text-overflow: hidden;
+		}
 
 		/* Image */
 

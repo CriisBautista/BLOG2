@@ -197,7 +197,7 @@
 																<h3><a href="{{route('temas', $publicaciones7['slug'])}}">{{$publicaciones7['TITULO']}}</a></h3>
 															</header>
 															<a href="{{route('temas', $publicaciones7['slug'])}}" class="image left"><img src="{{$publicaciones7['IMAGEN']}}" alt="" /></a>
-															<p>{{$publicaciones7['ARTICULO5']}}</p>
+															<p>{{$publicaciones7['ARTICULO3']}}</p>
 															<ul class="actions">
 																<li><a href="{{route('temas', $publicaciones7['slug'])}}" class="button icon solid fa-file">SEGUIR LEYENDO...</a></li>
 															</ul>

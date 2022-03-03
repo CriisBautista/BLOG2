@@ -25,7 +25,7 @@
 										<a href="#" class="icon fa-chart-bar"><span>TEMARIO</span></a>
 										<ul>
 											<li>
-												<a >Introducción a la arquitectura  Cliente/Servidor</a>
+												<a> <span>Introducción a la arquitectura  Cliente/Servidor</span></a>
 												<ul>
 													@foreach ($publiSub1 as $publicacionesSub1)
 													<li><a href="{{route('temas', $publicacionesSub1['slug'])}}">{{$publicacionesSub1['TITULO']}}.</a></li>
