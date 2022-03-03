@@ -110,7 +110,7 @@ class publicacionSeeder extends Seeder
                 'ARTICULO6'=> '',
                 'IMAGEN' => 'https://www.monografias.com/docs114/telecomunicaciones-arquitectura-cliente-servidor/image001.jpg',
                 'UNIDAD' => '1',
-                'slug' => 'sistemas_con_arquitectura _Cliente/Servidor',
+                'slug' => 'sistemas_con_arquitectura _Cliente_Servidor',
                 'created_at' => date('Y-m-d H:i:s'),
                 'updated_at' => date('Y-m-d H:i:s')
             ],
@@ -155,7 +155,7 @@ class publicacionSeeder extends Seeder
                 'ARTICULO6'=> '',
                 'IMAGEN' => 'https://www.ibm.com/docs/es/SSAW57_9.0.5/com.ibm.websphere.nd.multiplatform.doc/ae/images/thtrcs.gif',
                 'UNIDAD' => '1',
-                'slug' => 'diagramación_de_componentes_de_la_arquitectura_Cliente/Servidor',
+                'slug' => 'diagramación_de_componentes_de_la_arquitectura_Cliente_Servidor',
                 'created_at' => date('Y-m-d H:i:s'),
                 'updated_at' => date('Y-m-d H:i:s')
             ],
@@ -171,7 +171,7 @@ class publicacionSeeder extends Seeder
                                 Siempre está ordenado y categorizado en la web. También sirve como instalación de depósito y almacenamiento de materias primas. Estas son páginas donde los clientes pueden reservar diferentes recursos en función de su relación con la información de la campaña.',
                 'IMAGEN' => 'https://www.ibm.com/docs/es/SSAW57_9.0.5/com.ibm.websphere.nd.multiplatform.doc/ae/images/thtrcs.gif',
                 'UNIDAD' => '1',
-                'slug' => 'componentes_del_modelo_Cliente/Servidor',
+                'slug' => 'componentes_del_modelo_Cliente_Servidor',
                 'created_at' => date('Y-m-d H:i:s'),
                 'updated_at' => date('Y-m-d H:i:s')
             ],
